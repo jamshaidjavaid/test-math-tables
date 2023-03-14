@@ -1,0 +1,140 @@
+html{
+	background-color: #cccccc;
+}
+#container{
+	height: 420px;
+	width: 600px;
+	background-color: #000000;
+	padding: 20px;
+	margin: 100px auto;
+	border-radius: 11px;
+	box-shadow: 0px 4px 9px 4px #ffffff;
+	position: relative;
+}
+#score{
+	color: #ffffff;
+	background-color: #cccccc;
+	position: absolute;
+	left: 550px;
+	margin: 0px;
+	padding: 10px 10px;
+	box-shadow: 0px 3px #ffffff;
+}
+#correct{
+	color: #ffffff;
+	background-color: #cccccc;
+	position: absolute;
+	left: 290px;
+	margin: 0px;
+	padding: 10px 10px;
+	display: none;
+}
+#wrong{
+	color: #ffffff;
+	background-color: #cccccc;
+	position: absolute;
+	left: 290px;
+	margin: 0px;
+	padding: 10px 10px;
+	display: none;
+}
+#question{
+	width: 470px;
+	height: 170px;
+	background-color: blue;
+	margin: 60px auto 10px auto;
+	box-shadow: 0px 4px green;
+	text-align: center;
+	color: #ffffff;
+	font-family: Comic Sans MS;
+	font-size: 120px; 
+}
+#headLine{
+	width: 470px;
+	background-color: green;
+	color: #ffffff;
+	margin: 0px auto;
+	text-align: center;
+	padding: 10px 0px; 
+	box-shadow: 0px 4px blue;
+}
+#choices{
+	height: 80px;
+	width: 470px;
+	margin: 20px auto 0px auto;
+}
+.box{
+	height: 70px;
+	width: 70px;
+	float: left;
+	margin-right: 63px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 4px green;
+	cursor: pointer;
+	line-height: 70px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial;
+	transition: all 1s;
+}
+#box4{
+	margin: 0px;
+}
+.box:hover{
+	background-color: green;
+	box-shadow: 0px 4px white;
+	color: #ffffff;
+}
+.box:active{
+	background-color: green;
+	box-shadow: 0px 4px white;
+	color: #ffffff;
+}
+#start{
+	width: 90px;
+	position: absolute;
+	background-color: blue;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	box-shadow: 0px 4px green;
+	left: 270px;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	border-radius: 4px;
+	transition: all 1s;
+}
+#start:hover{
+    background-color: green;
+	box-shadow: 0px 4px blue;
+	color: #ffffff;
+}
+#start:active{
+	background-color: green;
+	box-shadow: 0px 4px blue;
+	color: #ffffff;
+}
+#clock{
+	background-color: white;
+	position: absolute;
+	padding: 10px;
+	box-shadow: 0px 4px blue;
+	left: 460px;
+	margin-top: 10px;
+	border-radius: 3px;
+	display: none; 
+}
+#gameOver{
+	background: linear-gradient(green, blue);
+	position: absolute;
+	width: 510px;
+	margin-top: -300px;
+	left: 65px;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	z-index: 2;
+	display: none;
+}
